@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/style.css">
+    <link rel="stylesheet" href="../Styles/mobilestyle.css">
+
+
+    <title>Rupee Pal | Welcome</title>
+    <link rel="icon" href="../favicon.png">
+
+
+    <!-- EXTERNAL RESOURCES -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+    crossorigin="anonymous"
+    />
+
+</head>
+<body>
+    <header>
+        <div class="header-hamburger">
+            <!-- CSS ONLY HAMBURGER MENU USING HTML CHECKBOX -->
+            <input type="checkbox" id="menu-toggle">
+            <label id="menu-toggle-label" for="menu-toggle"><i class="fas fa-bars"></i></label>
+            <div class="header-menu-mobile" id="header-menu-mobile">
+                <ul>
+                    <li><a href="./index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="./pricing.html"><i class="fas fa-tag"></i> Pricing</a></li>
+                    <li><a href="./signup.html"><i class="fas fa-feather-alt"></i> Sign up</a></li>
+                    <li><a href="./contact.html"><i class="fas fa-address-book"></i> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-image">
+            <a href="./index.html"><img src="../Images/rupeepal.svg" alt="Rupee Pal Logo"></a>
+        </div>
+        <div class="header-menu">
+            <ul>
+                <li><a href="./index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="./pricing.html"><i class="fas fa-tag"></i> Pricing</a></li>
+                <li><a href="./signup.html"><i class="fas fa-feather-alt"></i> Sign up</a></li>
+                <li><a href="./contact.html"><i class="fas fa-address-book"></i> Contact</a></li>
+            </ul>
+        </div>
+        <div class="header-login active">
+            <a  href="./login.html"><i class="fas fa-sign-in-alt"></i> Log in</a>
+        </div>
+        <div class="header-login-mobile active">
+            <a  href="./login.html"><i class="fas fa-sign-in-alt"></i></a>
+        </div>
+    </header>
+    <main>
+        <img class="page-top" src="../Images/page-background.svg" alt="Page Style Background">
+        <section class="first login">
+            <img src="../Images/login.svg" alt="Login Illustration">
+            <div class="form-container">
+                <h1 class="section-header">Log in</h1>
+                <form action="" method="post">
+                    Email
+                    <input type="text" name="firstname" placeholder="Enter your email" required>
+                    Password
+                    <input type="password" name="lastname" placeholder="Enter your password" required>
+                    <button type="submit"><i class="fas fa-sign-in-alt"></i> Log In</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-line"></div>
+        <img src="../Images/rupeepalbig.svg" alt="Rupee Pal Logo">
+        <p>&copy; <a class="link-general" href="https://hasathcharu.com" target="_blank">205036H Hasathcharu PDH <i class="fas fa-external-link-alt"></i></a> | <a class="link-general" href="references.html">References</a></p>
+    </footer>
+</body>
+</html>

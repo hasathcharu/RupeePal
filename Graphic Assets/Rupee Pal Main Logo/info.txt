@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: publicasans-regular
+font link: http://www.myfonts.com/fonts/facetype/publica-sans/regular/#index
+font author: FaceType
+font author site: http://www.facetype.org/
+Slogan Font: Questrial-Regular.otf
+
+icon designer: chabib ali machbubi
+icon designer link: /shwetawahana
+        
+
+fontColor: {"hex":"#22cc9d"}
+bgColor: {"hex":"#FFFFFF"}
+iconColor: {"hex":"#22cc9d"}
+sloganColor: {"hex":"#333333"}
+      
